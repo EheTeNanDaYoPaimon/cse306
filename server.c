@@ -36,7 +36,7 @@ int main(int argc, const char *argv[])
 	/* [S2]
 	 * Explaint the following here.
 
-	setsockopt manipulates options in socket referenced by server_fd.
+	setsockopt manipulates options in socket file desceriptor referenced by server_fd.
 	Since SOL_SOCKET is set then this function call will try to manipulate
 	the options at socket api level. The option name is the third parameter
 	and will be set to fourth parameter.
